@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dattatri Patil | AI Full Stack Developer</title>
+<meta name="description" content="Portfolio of Dattatri Patil, final-year AI & ML engineering student building full-stack, LLM-powered apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF1F6; --panel:#FFFFFF; --ink:#142036; --muted:#4D5B73; --line:#CBD3E1; --accent:#2150E6; --accent-ink:#FFFFFF;
+  --head:"Bricolage Grotesque","Segoe UI",Arial,sans-serif; --body:"IBM Plex Sans","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0F1727; --panel:#16203A; --ink:#E8EDF7; --muted:#A3B0C7; --line:#2B3A5C; --accent:#7C9BFF; --accent-ink:#0F1727;}
+}
+:root[data-theme="dark"]{--bg:#0F1727; --panel:#16203A; --ink:#E8EDF7; --muted:#A3B0C7; --line:#2B3A5C; --accent:#7C9BFF; --accent-ink:#0F1727;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:48px 24px;display:grid;grid-template-columns:300px 1fr;gap:56px}
+aside{position:sticky;top:48px;align-self:start}
+h1{font:700 2.4rem/1.05 var(--head);margin:0 0 12px;letter-spacing:-.02em}
+.role{font:500 1.05rem/1.4 var(--head);margin:0 0 16px}
+.intro{color:var(--muted);margin:0 0 24px;font-size:.97rem}
+nav ul{list-style:none;margin:0 0 24px;padding:0;border-left:2px solid var(--line)}
+nav a{display:block;padding:6px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--ink);border-left-color:var(--accent)}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:9px 16px;border-radius:6px;border:1.5px solid var(--accent);text-decoration:none;font-weight:500;font-size:.95rem}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.theme{margin-top:20px;background:none;border:1px solid var(--line);color:var(--muted);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit;font-size:.85rem}
+section{margin-bottom:56px;scroll-margin-top:32px}
+h2{font:700 1.5rem/1.2 var(--head);margin:0 0 20px;letter-spacing:-.01em}
+.project{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:28px;margin-bottom:24px}
+.project.lead{border-left:6px solid var(--accent)}
+.project h3{font:700 1.25rem/1.3 var(--head);margin:0 0 4px}
+.status{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+.project ul{padding-left:20px;margin:14px 0}
+.project li{margin-bottom:6px}
+.stack{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0;padding:0;list-style:none}
+.stack li{margin:0;padding:3px 10px;border:1px solid var(--line);border-radius:999px;font-size:.84rem;color:var(--muted)}
+dl.skills{margin:0;display:grid;grid-template-columns:170px 1fr;gap:0}
+dl.skills dt,dl.skills dd{margin:0;padding:12px 0;border-top:1px solid var(--line)}
+dl.skills dt{font-weight:500}
+dl.skills dd{color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);font-size:.93rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg);font-weight:500}
+.table-scroll{overflow-x:auto}
+.cert{margin:0 0 8px}
+@media (max-width:820px){
+  .wrap{grid-template-columns:1fr;gap:32px;padding:32px 20px}
+  aside{position:static}
+  nav{display:none}
+  dl.skills{grid-template-columns:1fr}
+  dl.skills dt{border-bottom:0;padding-bottom:0}
+  dl.skills dd{border-top:0;padding-top:2px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <h1>Dattatri Patil</h1>
+    <p class="role">AI &amp; full-stack developer</p>
+    <p class="intro">Final-year B.E. student in AI &amp; ML, Bengaluru. I build complete apps, from the database and API to the mobile screen, and add LLM features that work on real user data.</p>
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="links">
+      <!-- TODO: set the real resume file name if you rename the PDF -->
+      <a class="btn primary" href="Dattatri_Patil_AI_Fullstack_Intern_Resume.pdf">Download resume</a>
+      <a class="btn ghost" href="https://github.com/DATTATRIPATIL" target="_blank" rel="noopener">GitHub</a>
+      <!-- TODO: replace with your LinkedIn profile URL -->
+      <!-- TODO: uncomment and set your LinkedIn URL
+      <a class="btn ghost" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a> -->
+    </div>
+    <button class="theme" id="theme" type="button" aria-label="Switch between light and dark theme">Switch theme</button>
+  </aside>
+
+  <main>
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project lead">
+        <h3>NutriTrack: AI-powered nutritional analysis app</h3>
+        <p class="status">Final-year project, in progress</p>
+        <p>A mobile app that identifies packaged and unpackaged foods and shows calories, protein, fat and carbohydrates, with an AI assistant that answers questions about your own nutrition data.</p>
+        <ul>
+          <li>LLM nutrition assistant on the Groq LLaMA 3 API, using tool-calling over the user's nutrition data, goals and food history.</li>
+          <li>CNN-based food recognition (Food-101, Indian food and custom datasets), barcode scanning and OCR for nutrition labels.</li>
+          <li>RESTful back-end services and a Supabase/PostgreSQL schema for authentication, sessions, food records and history.</li>
+          <li>TypeScript screens for the dashboard, food history, camera scanning and progress tracking.</li>
+          <li>AI features: health-condition food warnings, cooking-method nutrition adjuster, Indian food-swap suggester, weekly report card and family multi-profile mode.</li>
+        </ul>
+        <ul class="stack" aria-label="Technologies used">
+          <li>React Native</li><li>Expo</li><li>TypeScript</li><li>FastAPI</li><li>Supabase</li><li>PostgreSQL</li><li>Groq LLaMA 3</li><li>Google Vision API</li><li>CNN</li><li>OCR</li>
+        </ul>
+        <p><a href="https://github.com/DATTATRIPATIL/REAL-TIME-NUTRITIONAL-ANALYASIS-PACKAGED-AND-UNPACKAGED-FOODS" target="_blank" rel="noopener">View code on GitHub</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Pratham Chikitse: emergency first-aid Android app</h3>
+        <p class="status">Android app</p>
+        <p>An Android app that gives AI-assisted first-aid guidance in an emergency, built with Jetpack Compose and the Gemini API.</p>
+        <ul class="stack" aria-label="Technologies used">
+          <li>Kotlin</li><li>Jetpack Compose</li><li>Gemini AI</li>
+        </ul>
+        <!-- TODO: add Pratham Chikitse repo link:
+        <p><a href="https://github.com/DATTATRIPATIL/YOUR-REPO" target="_blank" rel="noopener">View code on GitHub</a></p> -->
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt><dd>Python, Java, SQL, TypeScript, JavaScript</dd>
+        <dt>Generative AI</dt><dd>LLM API integration, agentic workflows, tool-calling, prompt engineering, OCR, CNN image recognition</dd>
+        <dt>Front end</dt><dd>React Native, Expo, TypeScript, JavaScript, HTML5, CSS3</dd>
+        <dt>Back end and APIs</dt><dd>FastAPI, RESTful APIs, Supabase, PostgreSQL, MongoDB</dd>
+        <dt>Tools</dt><dd>Git, GitHub, Docker</dd>
+        <dt>Computer science</dt><dd>Data structures and algorithms, OOP, DBMS, operating systems, computer networks, machine learning</dd>
+      </dl>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Course</th><th>Institute</th><th>Years</th><th>Score</th></tr></thead>
+          <tbody>
+            <tr><td>B.E. (AI &amp; ML)</td><td>SJB Institute of Technology, Bengaluru (VTU)</td><td>2023 to 2027</td><td>CGPA 7.56</td></tr>
+            <tr><td>12th (PU)</td><td>Shri Chaitanya PU College, Hyderabad</td><td>2021 to 2023</td><td>94.1%</td></tr>
+            <tr><td>10th (SSLC)</td><td>Sri Veerabhadreshwara High School, Nittur(B)</td><td>2021</td><td>96.8%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <p class="cert">Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, Oracle University (Oct 2025)</p>
+      <p class="cert">Cloud Computing, NPTEL, IIT Kharagpur</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>I'm looking for an AI or full-stack internship. Email me at <a href="mailto:dattatridattu1@gmail.com">dattatridattu1@gmail.com</a> or call +91-8971354461.</p>
+    </section>
+  </main>
+</div>
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById('theme');
+  try{var s=localStorage.getItem('theme'); if(s) root.setAttribute('data-theme',s);}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark' || (!root.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    var next=dark?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
